@@ -1,0 +1,62 @@
+/* Montserrat */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-Black.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins/Poppins-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins/Poppins-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --font-primary: "Montserrat", serif;
+  --font-secondary: "Poppins", sans-serif;
+}

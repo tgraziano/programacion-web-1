@@ -1,0 +1,49 @@
+.season-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.season-item {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: var(--black);
+  border-radius: 6px;
+  display: flex;
+  padding: 10px;
+  gap: 14px;
+  width: fit-content;
+  transition: box-shadow 300ms ease-in-out;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+.season-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.season-item-info h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.season-item-info p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.season-item-ranking {
+  background-color: var(--primary-dark);
+  color: var(--white);
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  padding-inline: 8px;
+  height: 100%;
+  font-weight: 600;
+  font-size: 24px;
+}

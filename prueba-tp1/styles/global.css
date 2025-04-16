@@ -1,0 +1,41 @@
+@import url("./fonts.css");
+@import url("./colors.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--neutral-950);
+  color: var(--neutral-50);
+  font-family: var(--font-primary);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 0;
+  gap: 15px;
+  height: 100dvh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
