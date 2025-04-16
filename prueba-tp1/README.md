@@ -27,7 +27,7 @@ Secciones:
 ## Modo desarrollo
 
 1. Abrir el proyecto en VSCode.
-2. Instalar las extensiones de VSCode configuradas en el proyecto.
+2. Instalar las extensiones de VSCode configuradas en el proyecto (Prettier, Eslint, Conventional commits, Live Server).
 3. Levantar servidor de desarrollo.
 
 Ejecutar comando:
